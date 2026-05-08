@@ -8,7 +8,7 @@ function Form({handelFormSubmitData}) {
     reset();
   }
   return (
-  <div className='bg-zinc-300 mt-10 flex  justify-center'>
+  <div className='bg-pink-200 mt-10 flex  justify-center'>
     <form className='rounded-lg flex gap-4' onSubmit={handleSubmit(handelFormSUBMIT)}>
       <input {...register('name')} className="rounded-md px-2 py-1 text-base font-semibold border border-zinc-400 bg-white focus:outline-none" type="text" placeholder="Name" />
       <input {...register('email')} className="rounded-md px-2 py-1 text-base font-semibold border border-zinc-400 bg-white focus:outline-none" type="text" placeholder="email" />
